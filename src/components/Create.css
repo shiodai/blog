@@ -1,0 +1,53 @@
+.createPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.createContainer {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  width: 70%;
+  gap: 10px;
+  padding: 0 40px;
+  box-shadow: 5px 9px 15px -5px #777777;
+}
+
+.createContainer h1 {
+  margin: 0;
+}
+
+.createContainer input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  padding: 0;
+}
+
+.createContainer textarea {
+  width: 100%;
+  height: 120px;
+  outline: none;
+  padding: 0;
+}
+
+.postButton {
+  padding: 10px 0;
+  border: none;
+  box-shadow: 5px 9px 15px -5px #777777;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #FFB83F;
+  transition: all 0.3s;
+}
+
+.postButton:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
